@@ -85,9 +85,6 @@ Create a .env file in the root directory of the project and add the following va
 EMAIL_HOST_USER=your-email@example.com
 EMAIL_HOST_PASSWORD=your-email-password
 
-# Django configuration
-ALLOWED_HOSTS=data-extractor-l1c7.onrender.com,localhost,127.0.0.1
-
 # Recipients
 RECIPIENT_LIST=recipient@example.com
 CC_LIST=cc_recipient@example.com
@@ -108,7 +105,7 @@ python manage.py runserver
 
 #### 3. Open your web browser and go to 
 
-http://127.0.0.1:8000/fileupload/upload/
+http://127.0.0.1:8000/
 
 ## Deploying on Render
 
